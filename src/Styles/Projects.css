@@ -1,0 +1,150 @@
+.services-cont {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+  padding-left: 6%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.project {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  background-color: rgb(22, 22, 22);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.project img {
+  width: 250px;
+  border-radius: 5px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.project-details p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 0.75rem;
+  line-height: 14px;
+  opacity: 0.8;
+  text-align: justify;
+  display: none;
+}
+
+.tech-stack {
+  display: flex;
+  font-size: 0.75rem;
+  gap: 4px;
+}
+
+.tech-stack span {
+  font-size: 0.7rem;
+}
+
+.project-options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 450px) {
+  .services-cont {
+    color: white;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .services-cont h3 {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .project {
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    background-color: rgb(22, 22, 22);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .project img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .project-details p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 14px;
+    opacity: 0.8;
+    text-align: justify;
+    display: none;
+  }
+
+  .tech-stack {
+    display: flex;
+    font-size: 0.75rem;
+    gap: 4px;
+  }
+
+  .tech-stack span {
+    font-size: 0.7rem;
+  }
+
+  .project-options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+}

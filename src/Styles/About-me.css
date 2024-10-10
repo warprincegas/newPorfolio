@@ -1,0 +1,258 @@
+.about-me {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.about-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6%;
+}
+
+.about-box:first-child {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.about-box span {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  /* font-family: "roboto"; */
+  font-weight: 200;
+  line-height: 22px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.about-box button {
+  background-color: rgb(255, 119, 0);
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.about-box:first-child button img {
+  width: 20px;
+  /* background-color: white; */
+}
+
+.about-box button small {
+  color: white;
+}
+
+.about-box .circle {
+  background-color: rgb(25, 25, 25);
+  border-radius: 50%;
+  position: relative;
+  width: 310px;
+  height: 310px;
+}
+
+.about-box:last-child img {
+  top: 10%;
+  left: 10%;
+  width: 250px;
+  object-fit: contain;
+  background-color: rgb(25, 25, 25);
+  border: none;
+  height: 250px;
+  position: absolute;
+  border-radius: 25%;
+}
+
+@media (min-width: 451px) and (max-width: 950px) {
+  .about-me {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .header h3 {
+    margin: 0;
+  }
+
+  .about-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+  }
+
+  .about-box:first-child {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .about-box span {
+    font-size: 0.89rem;
+    opacity: 0.6;
+    /* font-family: "roboto"; */
+    font-weight: 200;
+    line-height: 20px;
+    text-align: justify;
+    display: block;
+    /* margin: 0 2%; */
+    /* word-spacing: 0px; */
+    margin-bottom: 10px;
+  }
+
+  .about-box button {
+    background-color: rgb(255, 119, 0);
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .about-box:first-child button img {
+    width: 20px;
+    /* background-color: white; */
+  }
+
+  .about-box button small {
+    color: white;
+  }
+
+  .about-box .circle {
+    background-color: rgb(25, 25, 25);
+    border-radius: 50%;
+    position: relative;
+    width: 310px;
+    height: 310px;
+  }
+
+  .about-box:last-child img {
+    top: 10%;
+    left: 10%;
+    width: 250px;
+    object-fit: contain;
+    background-color: rgb(25, 25, 25);
+    border: none;
+    height: 250px;
+    position: absolute;
+    border-radius: 25%;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-me {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .header h3 {
+    margin: 0;
+  }
+
+  .about-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+  }
+
+  .about-box:first-child {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .about-box span {
+    font-size: 0.89rem;
+    opacity: 0.6;
+    /* font-family: "roboto"; */
+    font-weight: 200;
+    line-height: 20px;
+    text-align: justify;
+    display: block;
+    /* margin: 0 2%; */
+    /* word-spacing: 0px; */
+    margin-bottom: 10px;
+  }
+
+  .about-box button {
+    background-color: rgb(255, 119, 0);
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .about-box:first-child button img {
+    width: 20px;
+    /* background-color: white; */
+  }
+
+  .about-box button small {
+    color: white;
+  }
+
+  .about-box .circle {
+    background-color: rgb(25, 25, 25);
+    border-radius: 50%;
+    position: relative;
+    width: 310px;
+    height: 310px;
+  }
+
+  .about-box:last-child img {
+    top: 10%;
+    left: 10%;
+    width: 250px;
+    object-fit: contain;
+    background-color: rgb(25, 25, 25);
+    border: none;
+    height: 250px;
+    position: absolute;
+    border-radius: 25%;
+  }
+}

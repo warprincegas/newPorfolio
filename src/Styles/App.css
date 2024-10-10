@@ -1,0 +1,20 @@
+main {
+  margin-top: 180px;
+}
+
+button:focus,
+button:active {
+  outline: none;
+}
+
+@media (min-width: 451px) and (max-width: 950px) {
+  main {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  main {
+    margin-top: 20px;
+  }
+}
