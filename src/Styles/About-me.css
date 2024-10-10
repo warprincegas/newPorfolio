@@ -7,15 +7,23 @@
   margin-top: 50px;
 }
 
-.header {
+.about-me h3 {
+  /* margin: 0; */
+  width: 88%;
+}
+
+/* .about-me .header {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-}
+  justify-content: center;
+  text-align: center;
+} */
 
-.header h3 {
+.about-me .header h3 {
   margin: 0;
+  /* width: 0%; */
 }
 
 .about-boxes {
@@ -23,6 +31,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 6%;
+}
+
+.about-box {
 }
 
 .about-box:first-child {

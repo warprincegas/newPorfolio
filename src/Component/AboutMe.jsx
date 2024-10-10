@@ -3,9 +3,7 @@ import "../Styles/About-me.css";
 function AboutMe(prop) {
   return (
     <div className="about-me" ref={prop.aboutRef}>
-      <div className="header">
-        <h3>About Me</h3>
-      </div>
+      <h3>About Me</h3>
       <div className="about-boxes">
         <div className="about-box">
           <span>
@@ -25,14 +23,6 @@ function AboutMe(prop) {
             {open && <small>Download CV</small>}
           </button>
         </div>
-        {/* <div className="about-box">
-          <div className="circle">
-            <img
-              src="Images\anonymous-4k-background-amoled--18793.jpg"
-              alt=""
-            />
-          </div>
-        </div> */}
       </div>
     </div>
   );
