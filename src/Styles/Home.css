@@ -444,7 +444,7 @@ circle {
 @media (max-width: 450px) {
   .box-cont {
     justify-content: space-between;
-    padding: 0 3%;
+    padding: 0 5%;
     flex-direction: column;
   }
 
