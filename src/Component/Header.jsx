@@ -2,8 +2,8 @@ function Header(prop) {
   // const ref = useRef(null);
 
   return (
-    <header>
-      <h2>WarDude🦊</h2>
+    <header className={`${prop.open ? "remove-bs" : ""}`}>
+      <h1>WarDude🦊</h1>
       <ul>
         <li onClick={prop.homeScroll}>Home</li>
         <li onClick={prop.aboutScroll}>About me</li>
