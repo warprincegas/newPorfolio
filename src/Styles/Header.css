@@ -82,7 +82,7 @@ header label {
 
 @media (min-width: 451px) and (max-width: 950px) {
   header {
-    padding: 30px 3%;
+    padding: 40px 3%;
     position: relative;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   }
