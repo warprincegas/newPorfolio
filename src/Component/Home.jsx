@@ -10,26 +10,45 @@ function Home(prop) {
         <h1 className="profession">Web developer</h1>
         <div className="img-cont">
           <div className="img-border">
-            <img src="Images\github-svgrepo-com (1).svg" alt="github logo" />
+            <a href="https://github.com/WarDudeFoxes" target="blank">
+              <img src="Images\github-svgrepo-com (1).svg" alt="github logo" />
+            </a>
           </div>
           <div className="img-border">
-            <img
-              src="Images\instagram-logo-facebook-svgrepo-com.svg"
-              alt="instagram logo"
-            />
+            <a
+              href="https://www.instagram.com/dev_wardude/profilecard/?igsh=YndxMDhwZTQydWF0"
+              target="blank"
+            >
+              <img
+                src="Images\instagram-logo-facebook-svgrepo-com.svg"
+                alt="instagram logo"
+              />
+            </a>
           </div>
           <div className="img-border">
-            <img
-              src="Images/linkedin-square-svgrepo-com.svg"
-              alt="linkedin logo"
-            />
+            <a
+              href="https://www.linkedin.com/in/ganiu-waris-588b722b7/"
+              target="blank"
+            >
+              <img
+                src="Images/linkedin-square-svgrepo-com.svg"
+                alt="linkedin logo"
+              />
+            </a>
           </div>
           <div className="img-border">
-            <img src="Images\twitter-svgrepo-com (1).svg" alt="twitter logo" />
+            <a href="https://x.com/dev_wardude" target="black">
+              <img
+                src="Images\twitter-svgrepo-com (1).svg"
+                alt="twitter logo"
+              />
+            </a>
           </div>
         </div>
         <div className="box-options">
-          <button className="hire-me">Hire Me</button>
+          <button className="hire-me" onClick={prop.contactScroll}>
+            Hire Me
+          </button>
           <button className="download-cv">Download CV</button>
         </div>
         <div className="review">

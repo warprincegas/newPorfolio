@@ -119,7 +119,7 @@ function App() {
         />
       }
       <main>
-        <Home homeRef={homeElem} />
+        <Home homeRef={homeElem} contactScroll={contactScroll} />
         <AboutMe aboutRef={aboutElem} />
         <Services serviceRef={serviceElem} />
         <Projects projectRef={projectElem} />
